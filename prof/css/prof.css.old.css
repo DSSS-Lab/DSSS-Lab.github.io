@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+div#mainImgBox{
+	margin:40px 550px 15px;
+	text-align: left;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+/*	border: 2px solid blue;*/
+}
+
+div#mainImgBox h1 {
+	font-size: 18px;
+	text-align: center;
+	text-shadow: 0px -1px 1px #777;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------------------*/
+
+div#wBg{
+	background: #fff;
+}
+
+div#mainContents{
+	width: 800px;
+	margin: 0 290px;
+	text-align: left;
+}
+
+div#mainContents p{
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+div#mainContents dl {
+	margin: 20px auto;
+}
+
+div#mainContents dl dt {
+	font-size: 18px;
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#mainContents dl dd {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* バナーエリア */
+div#bannerBox{
+	float: right;
+	width: 250px;
+}
+div#bannerBox ul li{
+	margin-bottom: 15px;
+}

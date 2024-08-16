@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+#wrapper{
+	margin: 0 auto;
+	text-align: left;
+	width: 100%;
+	line-height: 1.8;
+}
+
+#header{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 40px 0 0 0;
+}
+
+/*
+#header h1{
+	float: left;
+	width: 300px;
+	font-size: 20px;
+	font-weight: bold;
+}
+*/
+
+div#header h1{
+	font-weight: bold;
+	float: left;
+	width: 500px;
+	/*padding: 26px 0 0 23px;*/
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #504F4F;
+	text-shadow:0px -1px 1px #777;
+}
+
+div#header h2 {
+	float: left;
+	font-size:16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #504F4F;
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+div#header h3 {
+	float: right;
+	font-size:15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #504F4F;
+	margin-top: 16px;
+}
+
+#header ul#gNavi{
+/*	float: right;*/
+	border-right: 1px solid #ccc;
+	padding-right: 15px;
+	margin-top: 8px;
+}
+
+#menu ul#gNavi {
+	height: 30px;
+	width: 540px;
+	text-align: center;
+    border-right: 1px solid #ccc;
+	padding-right: 15px;
+	margin-top: 15px;
+}
+
+#menu ul#gNavi li{
+	height: 30px;
+	display: block;
+	float: left;
+	padding-left: 10px;
+	margin-left: 15px;
+	border-left: 1px solid #ccc;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif!important;
+	font-size: 13px;
+}
+#menu ul#gNavi li a{
+	font-style: normal;
+	color: #333;
+	text-decoration: none;
+	font-size: 14px;
+}
+#menu ul#gNavi li a:hover{
+	text-decoration: underline;
+}
+
+ul#gNavi{
+	width: 600px;
+	text-align: left;
+	margin: 0 auto;
+}
+ul#gNavi li{
+	display: block;
+	float: left;
+	margin-left: 30px;
+}
+ul#gNavi li a{
+	font-size: 13px;
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}
+ul#gNavi li a:hover{
+	text-decoration: underline;
+}
+ul#gNavi li.firstItem{
+	margin-left: 0;
+}
+
+#mainContents{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#footer{
+	background: #000;
+	color: #fff;
+	margin-top: 45px;
+	text-align: center;
+}
+
+#footer p#copyright{
+	text-align: center;
+	padding: 8px;
+	font-family:"lucida grande", tahoma, verdana, arial, sans-serif!important;
+}

@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+
+div#mainImgBox{
+	margin:15px auto 15px;
+	text-align: left;
+	width: 960px;
+	height: 200px;
+	overflow: hidden;
+/*	border: 2px solid blue;*/
+}
+
+/*--------------------------------------*/
+
+div#wBg{
+	background: #fff;
+}
+
+div#mainContents{
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div#mainContents p{
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+div#content h1{
+	font-size: 18px;
+	margin-top: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#content p{
+	font-size: 14px;
+/*	font-family: Arial, Helvetica, sans-serif;*/
+}
+
+div#content table th {
+	margin-left:3px;
+	text-align: center;
+	background-color: rgb(203, 210, 240);
+}
+
+div#content table th p{
+	margin-left:3px;
+}
+
+div#content table td p{
+	margin-left:3px;
+}
+
+
+
+
+div#year ul li{
+	font-family:'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+	font-size: 14px;
+	list-style-type:disc;
+	margin-left: 10px;
+}
+
+/* バナーエリア */
+div#bannerBox{
+	float: right;
+	width: 250px;
+}
+div#bannerBox ul li{
+	margin-bottom: 15px;
+}
